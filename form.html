@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="shortcut icon" class="invert" href="assests/Logo/Tech Teach.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="w-full h-full bg-[#FFEEAD] ">
+
+    <!-- navbar -->
+    <nav class="w-full h-auto flex justify-around  bg-[#674636] ">
+        <a href="index.html">
+            <div class="  logo w-24 md:w-28 md:invert-0 invert my-auto">
+                <img class="md:invert" src="assests/Logo/TT.png">
+            </div>
+        </a>
+
+        <ul
+            class="md:flex py-5 my-auto text-[6px] text-center md:text-xs space-y-2 md:space-y-0 uppercase font-bold text-[#EEEEEE] md:space-x-10 ">
+            <a href="index.html">
+                <li class="hover:text-[#FFEEAD] cursor-pointer">Home</li>
+            </a>
+            <a href="courses.html">
+                <li class="hover:text-[#FFEEAD] cursor-pointer">Courses</li>
+            </a>
+            <a href="aboutus.html">
+                <li class="hover:text-[#FFEEAD] cursor-pointer">About</li>
+            </a>
+            <a href="form.html">
+                <li class="hover:text-[#FFEEAD] cursor-pointer">Contact</li>
+            </a>
+            <a href="help.html">
+                <li class="hover:text-[#FFEEAD] cursor-pointer">Help</li>
+            </a>
+        </ul>
+
+        <a href="applynow.html"><button
+                class="hover:bg-[#EEEEEE] hover:text-[#A66E38] h-10 space-x-3 md:flex my-8 rounded-lg p-2 px-4 uppercase text-xs font-extrabold text-[#EEEEEE]   bg-[#A66E38]">
+                <p class="my-auto md:text-[10px] text-[8px] ">apply now</p>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="md:size-5 my-auto   size-4">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                </svg>
+
+            </button></a>
+    </nav>
+
+    <!-- mainbody -->
+    <div
+        class="bg-[url(https://images.unsplash.com/photo-1423666639041-f56000c27a9a?q=80&w=1474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] h-full p-5 bg-cover bg-center bg-no-repeat  w-full">
+        <!-- contact form -->
+        <form action="#" method="POST" class="max-w-md mx-auto bg-opacity-80 p-6  rounded-lg shadow-lg bg-[#A66E38]">
+            <div class="mb-4">
+                <h2 class="text-xl md:text-2xl font-bold mb-4 text-[#FFEEAD]">Contact Us</h2>
+                <label for="name" class="block text-[#EEEEEE] font-bold mb-2">Name</label>
+                <input type="text" id="name" name="name" required
+                    class="w-full px-3 py-2 border bg-[#FFEEAD]  rounded-md focus:outline-none focus:ring-2 focus:ring-red-600">
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block text-[#EEEEEE] font-bold mb-2">Email</label>
+                <input type="email" id="email" name="email" required
+                    class="w-full px-3 py-2 border  bg-[#FFEEAD] rounded-md focus:outline-none focus:ring-2 focus:ring-red-600">
+            </div>
+            <div class="mb-4">
+                <label for="message" class="block text-[#EEEEEE] font-bold mb-2">Message</label>
+                <textarea id="message" name="message" rows="4" required
+                    class="w-full px-3 py-2 border ro bg-[#FFEEAD] rounded-md focus:outline-none focus:ring-2 focus:ring-red-600"></textarea>
+            </div>
+            <hr class="border-[#FFEEAD]">
+
+            <center>
+                <div class="flex justify-around">
+                    <a href="index.html"><button type="submit"
+                            class="text-[#EEEEEE] flex space-x-2 bg-[#A66E38] px-6 py-3 my-5 rounded-full font-semibold hover:bg-[#EEEEEE] hover:text-[#A66E38]">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="my-auto size-4">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="m18.75 4.5-7.5 7.5 7.5 7.5m-6-15L5.25 12l7.5 7.5" />
+                            </svg>
+
+                            <p class="my-auto">Back</p>
+                        </button>
+                    </a>
+                    <button type="submit"
+                        class="text-[#EEEEEE] bg-[#A66E38] px-6 py-3 my-5 rounded-full font-semibold hover:bg-[#EEEEEE] hover:text-[#A66E38]">
+                        Send Message
+                    </button>
+                </div>
+            </center>
+        </form>
+
+        <!-- Social Media handles -->
+        <center>
+            <div
+                class="bg-[#A66E38] my-14 w-4/5 md:w-1/2 p-5 rounded-lg bg-opacity-80 font-semibold md:space-y-8 space-y-3 text-[#FFEEAD]">
+                <div>
+                    <p class="text-base md:text-3xl">Also Visit our Social Media Handles</p>
+                </div>
+                <div class="flex justify-around bg-[#674636] py-5 rounded-full bg-opacity-75">
+                    <img src="assests/icons/insta main.svg" class="size-5 md:size-12" alt="">
+                    <img src="assests/icons/linkedin main.svg" class="size-5 md:size-12" alt="">
+                    <img src="assests/icons/twitter main.svg" class="size-5 md:size-12" alt="">
+                    <img src="assests/icons/facebook main.svg" class="size-5 md:size-12" alt="">
+                </div>
+            </div>
+        </center>
+    </div>
+
+</body>
+
+<!-- Footer -->
+<footer
+    class="w-auto flex justify-between md:text-sm md:justify-around text-[6px] py-5 h-auto px-6 bg-[#674636] text-[#EEEEEE]">
+
+    <div class="leading-4 md:leading-8 my-auto">
+        <p class="">&copy; All Rights Reserved. Designed by <u class="text-[#FF8400]">Techmire Solutions</u></p>
+        <p>Contact: <u class="text-[#FF8400]">info@techteach.com</u> </p>
+        <div class="flex space-x-3">
+            <img src="assests/icons/location-dot-solid.svg" class="size-5 my-auto" alt="">
+            <p class="text-[#FF8400] underline">Karachi, Pakistan</p>
+        </div>
+        <div class="flex my-1 space-x-3">
+            <img src="assests/icons/instagram-brands-solid.svg" class="size-4 md:size-6" alt="">
+            <img src="assests/icons/linkedin-brands-solid.svg" class="size-4 md:size-6" alt="">
+            <img src="assests/icons/square-x-twitter-brands-solid.svg" class="size-4 md:size-6" alt="">
+            <img src="assests/icons/square-facebook-brands-solid.svg" class="size-4 md:size-6" alt="">
+        </div>
+    </div>
+
+    <div class="logo">
+        <img src="assests/Logo/TT.png" class=" logo w-24 md:w-36  invert my-auto" alt="">
+    </div>
+</footer>
+
+</html>
